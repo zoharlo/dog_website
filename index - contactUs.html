@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>כלבלבי-צור קשר</title>
+    <link rel="icon" href="image/updateLOGO.png">
+    <meta name="description" content="אתר כלבים" />
+    <meta name="keywords" content="כלבים, אימוץ, משחקים וטיולים " />
+    <meta name="author" content="ענבל זוהר ואריאל" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <nav aria-label="main-nav">
+            <div id="backColorNav">
+
+                <img id="logo" src="image/updateLOGO.png" alt="logo" />
+                <div class="home2">
+                    <a class="homeLink2" href="index.html">בית</a>
+                </div>
+                <div class="linksListNav">
+                    <button class="titleOfNav">אילוף</button>
+                    <div class="goingDownLinks">
+                        <a href="index - trainer.html"> פקודת אליי</a>
+                        <a href="#" class="notActive"> כלב שמושך בטיולים</a>
+                        <a href="#" class="notActive">איך למנוע מהגור להרוס את הבית</a>
+                        <a href="#" class="notActive">אילוף עם רצועה</a>
+                    </div>
+                </div>
+                <div class="linksListNav">
+                    <button class="titleOfNav">מזון</button>
+                    <div class="goingDownLinks">
+                        <a href="index - food.html"> טיפים להאכלה נכונה </a>
+                        <a href="#" class="notActive"> מה עושים עם כלב שרכושני לאוכל שלו</a>
+                        <a href="#" class="notActive"> מהו אוכל איכותי לכלב</a>
+                    </div>
+                </div>
+                <div class="linksListNav">
+                    <button class="titleOfNav">טיולים</button>
+                    <div class="goingDownLinks">
+                        <a href="#" class="notActive">הטיול הכי חשוב ביום</a>
+                        <a href="#" class="notActive">  חשיפת הגור לעולם</a>
+                        <a href="#" class="notActive">מקומות ציבוריים שמכניסים כלבים </a>
+                    </div>
+                </div>
+                <div class="linksListNav">
+                    <button class="titleOfNav">כתבות</button>
+                    <div class="goingDownLinks">
+                        <a href="#" class="notActive"> היצירים של הכלבים שלנו</a>
+                        <a href="#" class="notActive"> למה לא כדאי שהכלב ישן בחוץ</a>
+                        <a href="#" class="notActive"> סוגי פריקת אנרגיה</a>
+                        <a href="#" class="notActive"> 7 טעויות שאתם עושים עם הכלב שלכם</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div>
+            <ul class="breadcrumb">
+                <li><a href="index.html">בית</a></li>
+                <li>צור קשר</li>
+            </ul>
+        </div>
+
+    </header>
+
+    
+
+    <h1 class="formTitle">  דברו איתנו  ;) </h1>
+
+    <!-- תחילת הטופס -->
+    <form class="mainforms">
+
+
+        <label for="firstNameBox" >
+            *שם פרטי:
+            <input name="firstname" type="text" id="firstNameBox" pattern="[A-Za-z]{1,40}" title="שם פרטי - אנא הזינו רק אותיות"
+                   aria-label="הזינו שם פרטי והשתמשו רק באותיות" aria-required="true" placeholder="הזן שם פרטי" required />
+        </label>
+
+        <label for="lastNameBox">
+            *שם משפחה:
+            <input name="lastname" type="text" id="lastNameBox" pattern="[A-Za-z]{1,40}" title="שם משפחה - אנא הזינו רק אותיות"
+                   aria-label="הזינו שם משפחה והשתמשו רק באותיות" aria-required="true" placeholder="הזן שם משפחה" required />
+        </label>
+
+
+        <br /> <br /> <br /> <br />
+        <label for="openList">
+            <select id="openList">
+                <option value="1"> בחר את האופציה הנכונה ביותר עבורך</option>
+                <option value="2"> יש בבעלותי כלב/ה</option>
+                <option value="3"> אין בבעלותי כלב/ה</option>
+                <option value="4"> אני מתכנן לאמץ כלב/ה</option>
+                <option value="5"> אחר</option>
+            </select>
+        </label>
+       
+
+        <br />
+
+        <fieldset class="genderRadio">
+
+            <legend class="mainform"> </legend> *אני: <br />
+
+            <label for="male" class="genderTEXT">
+                זכר
+                <input type="radio" id="male" name="gender" value="male" required>
+
+            </label>
+
+            <label for="female" class="genderTEXT">
+                נקבה
+                <input type="radio" id="female" name="gender" value="female" required>
+            </label>
+
+        </fieldset>
+
+        <br />  <br />  <br />
+
+        <label for="descriptionBox" class="descriptionBoxTitle">
+            *נושא הפנייה:
+            <textarea id="descriptionBox" placeholder="הקלד כאן את נושא הפנייה..." rows="10" required></textarea>
+        </label>
+
+        <br />  <br />  <br />
+         
+        <label for="sendButton">
+            <input type="submit" id="sendButton" value="לשליחה לחץ כאן" />
+        </label>
+
+    </form>
+
+
+
+    <!-- תחילת פוטר -->
+    <div class="footer">
+        <footer>
+            <div>
+
+                <img id="footerLOGO" src="image/updateLOGO.png" width="100%" ; />
+
+                <div>
+
+                    <a class="footerLINKS" href="index.html">בית</a>
+                </div>
+                <div>
+                    <h3 class="footerTEXT">אילוף</h3>
+                </div>
+                <div>
+                    <h3 class="footerTEXT"> מזון</h3>
+                </div>
+                <div>
+                    <h3 class="footerTEXT"> טיולים</h3>
+                </div>
+                <div>
+                    <h3 class="footerTEXT"> מאמרים</h3>
+                </div>
+
+                <div>
+                    <a class="footerLINKS" href="index -about.html">אודות</a>
+                </div>
+
+
+                <div>
+                    <a class="footerLINKS" href="index - contactUs.html">צור קשר</a>
+                </div>
+
+
+                <div>
+                    <a class="footerLINKS" href="index - siteMap.html">מפת אתר</a>
+                </div>
+
+                <div id="copyRights">
+                    <p> @ כל הזכויות שמורות </p>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
+

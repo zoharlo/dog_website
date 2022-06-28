@@ -1,0 +1,1170 @@
+﻿body {
+    direction: rtl;
+    background-color: #EDDECE;
+} 
+/*הגדרות תפריט ניווט*/
+#backColorNav {
+    background-color: #FFF9E9;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    width: 150px;
+    height: 160px;
+    z-index: 100;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 60px;
+}
+.homeLink2 {
+    background-color: #D99B66;
+    color: white;
+    margin: 8px;
+    padding: 14px 45px;
+    font-size: 18px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.6s;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.home2 {
+    position: relative;
+    display: inline-block;
+}
+
+.home2 a:hover {
+    background-color: #F7E8D8;
+}
+
+.titleOfNav {
+    background-color: #D99B66;
+    color: white;
+    padding: 14px 40px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-right: 20px;
+    border-radius: 2px;
+    transition-duration: 0.6s;
+    width: 120px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.linksListNav {
+    position: relative;
+    display: inline-block;
+
+}
+
+.goingDownLinks {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.goingDownLinks a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.goingDownLinks a:hover {
+    background-color: #FFF4CB;
+}
+
+.linksListNav:hover .goingDownLinks {
+    display: block;
+}
+
+.linksListNav:hover .titleOfNav {
+    background-color: #F7E8D8;
+}
+
+.choice {
+    color: gray;
+    text-decoration: none;
+}
+
+.notActive {
+    cursor: not-allowed;
+    color: gray;
+    font-family: 'Varela Round', sans-serif;
+}
+
+div > a {
+    text-align: center;
+}
+/*סוף ניווט*/
+
+/*פירורי לחם*/
+ul.breadcrumb {
+padding: 10px 16px;
+list-style: none;
+}
+
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 18px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+ul.breadcrumb li + li:before {
+    padding: 8px;
+    color: black;
+    /*עיצוב רשימה צפה*/
+    content: "/\00a0"; 
+}
+
+    ul.breadcrumb li a {
+        color: #593520;
+        text-decoration: none;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+ul.breadcrumb li a:hover {
+    color: #D99B66;
+    text-decoration: underline;
+}
+/*סוף פירורי לחם*/
+.breadcrumbWhite {
+    position: absolute;
+    top: 120px;
+    right: 24px;
+}
+ul.breadcrumbWhite {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+ul.breadcrumbWhite li {
+display: inline;
+font-size: 18px;
+font-family: 'Varela Round', sans-serif;
+}
+
+ul.breadcrumbWhite li + li:before {
+    padding: 8px;
+    color: #FFF9E9;
+    /*עיצוב רשימה צפה*/
+    content: "/\00a0";
+}
+
+ul.breadcrumbWhite li a {
+    color: #FFF9E9;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+ul.breadcrumbWhite li  {
+    color: #FFF9E9;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+    ul.breadcrumbWhite li a:hover {
+        color: #D99B66;
+        text-decoration: underline;
+    }
+
+
+/*תחילת תמונת אווירה*/
+#manAndDog {
+    width: 1530px;
+    height: 820px;
+}
+
+#welcomeText {
+    margin-top: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.welcome {
+    color: #734A26;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 32pt;
+    position: absolute;
+    top: 200px;
+    right: 24px;
+}
+
+.KnowWhatRight {
+    color: #734A26;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 32pt;
+    position: absolute;
+    top: 240px;
+    right: 24px;
+}
+
+.inTheRightPlace {
+    text-align: center;
+    color: #734A26;
+    font-weight: bold;
+    font-size: 34pt;
+    line-height: 1.8;
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    top: 280px;
+    right: 24px;
+}
+
+/*סוף תמונת אווירה*/
+
+/*הכתבות שלנו*/
+
+.fourPics{
+    width:20%;
+    float: right;
+    margin-left:10px;
+    margin-right:20px;
+    padding:10px;
+    margin-top:20px;
+
+}
+
+#ourArticles {
+    color: #D99B66;
+    font-size:38px;
+}
+.tipsText {
+    font-size: 24px;
+    line-height: 1.42;
+    color: #D99B66;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    word-break: break-word;
+    text-align:center;
+    font-family: 'Varela Round', sans-serif;
+}
+.tipsTextWorking {
+    font-size: 24px;
+    line-height: 1.42;
+    color: #D99B66;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    word-break: break-word;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+.tipsTextWorking:hover {
+    opacity: 0.4;
+    text-decoration: underline;
+    font-size: 26px;
+}
+/*סוף הכתבות שלנו*/
+
+/*ממליצים עלינו*/
+#recomdedAboutUS {
+    margin-top: 20px;
+    color: #D99B66;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+#recomdedAboutUS1 {
+   color: #EDDECE;
+}
+
+#recomend1 {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+   
+}
+
+.recomend {
+    font-size: 24px;
+    color: #D99B66;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    border: solid 4px;
+    background-color: #FFF9E9;
+    width: 300px;
+    height: 240px;
+    display: inline-block;
+    padding: 12px 24px;
+    float: right;
+    margin: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor:pointer;
+}
+.recomend:hover {
+    color: #B1833D;
+}
+    /*סוף ממליצים עלינו*/
+
+/*סוגי פריקת אנרגיה*/
+
+
+#energyTitle {
+    margin-top: 20px;
+    color: #D99B66;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+.energy1 {
+    width: 1000px;
+    height: 250px;
+    background-color: #FFF9E9;
+    margin: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:absolute;
+    right:200px;
+    top: 1940px;
+}
+.energy2 {
+    width: 1000px;
+    height: 250px;
+    background-color: #FFF9E9;
+    margin: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    right: 200px;
+    top: 2240px;
+}
+.energy3 {
+    width: 1000px;
+    height: 250px;
+    background-color: #FFF9E9;
+    margin: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    right: 200px;
+    top: 2540px;
+}
+.energypic {
+    width: 25%;
+    float: right;
+}
+.energyText1 {
+    color: #634022;
+    font-size: 22px;
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 30px;
+    padding: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+.energyText2 {
+    color: #634022;
+    font-size: 22px;
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 30px;
+    padding: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.energyText3 {
+    color: #634022;
+    font-size: 22px;
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 30px;
+    padding: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+.footer4 {
+    position: absolute;
+    top: 2500px;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background: #D99B66;
+    margin-top: 500px;
+}
+.energyTitle1 {
+    text-align: center;
+    font-size: 28px;
+     margin:12px;
+    color: #D99B66;
+    font-family: 'Varela Round', sans-serif;
+}
+.continue {
+    font-size: 20px;
+    text-align: left;
+    color: #D99B66;
+    font-family: 'Varela Round', sans-serif;
+    margin-left:20px;
+}
+
+.continue:hover {
+    text-decoration: underline;
+    color: #734A26;
+    cursor:pointer;
+}
+
+    /*סוף סוגי אנרגיה*/
+    /*עמוד פנימי - טיפים להאכלה נכונה*/
+    #foodpage {
+        height: 700px;
+        margin-top: -20px;
+    }
+
+#goodfood {
+    color: #734A26;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 34pt;
+    line-height: 1.2;
+    position: absolute;
+    top: 200px;
+    right: 24px;
+}
+
+#goodfood2 {
+    color: #734A26;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22pt;
+    line-height: 2.1;
+    position: absolute;
+    top: 240px;
+    right: 24px;
+}
+
+#goodfood3 {
+    text-align: center;
+    color: #734A26;
+    font-size: 22pt;
+    line-height: 2.1;
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    top: 280px;
+    right: 24px;
+}
+
+#goodfood4 {
+    text-align: center;
+    color: #734A26;
+    font-size: 22pt;
+    line-height: 4.3;
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    top: 280px;
+    right: 24px;
+}
+#foodTipsSection {
+    margin-top: 45px;
+}
+li > strong {
+    font-family: 'Varela Round', sans-serif;
+}
+
+section h1 {
+    font-size: 34px;
+    color: #734A26;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+section {
+    font-size: 20px;
+    color: #734A26;
+    font-family: 'Varela Round', sans-serif;
+}
+section ul li {
+    list-style-image: url('../image/bone2.png');
+    font-family: 'Varela Round', sans-serif;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #734A26;
+    font-family: 'Varela Round', sans-serif;
+}
+#table {
+    text-align: center;
+    color: #BF7A24;
+    background-color: rgb(255 249 233 / 0.80);
+    font-size: 22px;
+    display: block;
+    border: solid 4px;
+    width: 500px;
+    height: 520px;
+    font-family: 'Varela Round', sans-serif;
+    padding: 12px 24px;
+    position: relative;
+    right: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+#table tr {
+    height: 1cm;
+    align-content: center;
+    font-family: 'Varela Round', sans-serif;
+}
+#table td {
+    height: 1cm;
+    align-content: center;
+    font-family: 'Varela Round', sans-serif;
+}
+#table th {
+    height: 50px;
+    width: 300px;
+    font-family: 'Varela Round', sans-serif;
+}
+#foodreco1 {
+    position:relative;
+    right:14px;
+    bottom:75px;
+    padding: 20px;
+    margin: 60px;
+    
+}
+
+#foodreco2 {
+    font-size: 20px;
+    line-height: 1.42;
+    color: #D99B66;
+    word-break: break-word;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    border: solid 4px;
+    background-color: #FFF9E9;
+    width: 400px;
+    height: 470px;
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#foodreco3 {
+    font-size: 20px;
+    line-height: 1.42;
+    color: #D99B66;
+    word-break: break-word;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    border: solid 4px;
+    background-color: #FFF9E9;
+    width: 400px;
+    height: 470px;
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#foodreco4 {
+    font-size: 20px;
+    line-height: 1.42;
+    color: #D99B66;
+    word-break: break-word;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    border: solid 4px;
+    background-color: #FFF9E9;
+    width: 400px;
+    height: 470px;
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#foodpic1 {
+    width: 36%;
+}
+
+#foodpic2 {
+    width: 39%;
+}
+
+#foodpic3 {
+    width: 31%;
+}
+
+.bold {
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #B98961;
+    color: #FFF9E9;
+    width: 200px;
+    height: 24px;
+    text-align: center;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+.whereTObuy {
+    font-family: 'Varela Round', sans-serif;
+}
+.bold:hover {
+    background-color: #804C2E;
+    transition-duration: 0.2s;
+    
+}
+
+
+
+/*סוף עמוד פנימי טיפים להאכלה נכונה*/
+
+
+/*תחילת עמוד פנימי - פקודת אליי*/
+
+.maintrainer {
+    font-size: 20px;
+    color: #734A26;
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#trainerheader {
+    margin-top: 80px;
+    font-size: 20px;
+    color: #734A26;
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#title1 {
+    font-size: 34px;
+    color: #734A26;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-bottom:14px;
+    margin-top:40px;
+}
+.opentitle {
+    text-align: center;
+    font-size: 22px;
+    color: #734A26;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.title2 {
+    font-size: 22px;
+    color: #734A26;
+    font-family: 'Varela Round', sans-serif;
+    float: right;
+    font-weight: bold;
+}
+.title3 {
+    font-size: 20px;
+    color: #734A26;
+    font-family: 'Varela Round', sans-serif;
+    float: right;
+    font-weight: bold;
+    
+}
+.textTrain {
+    font-size:14pt;
+    color: #734A26;
+    font-family: 'Varela Round', sans-serif;
+    line-height:1.4;
+
+}
+
+.tipsTRAIN {
+    position: absolute;
+    top: 1840px;
+    right: 20px;
+    
+}
+.firstSection {
+    position: absolute;
+    right: 20px;
+}
+.secondSection {
+    position: absolute;
+    top: 600px;
+    right: 20px;
+}
+.thirdSection {
+    position: absolute;
+    top: 280px;
+    right: 18px;
+}
+/*פוטר פקודת אליי*/
+.footer2 {
+    position: absolute;
+    top: 1770px;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background: #D99B66;
+    margin-top: 500px;
+}
+/*סוף פקודת אליי*/
+/*תחילת פוטר*/
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background: #D99B66;
+    margin-top: 500px;
+}
+.footerTEXT {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    font-size: 22px;
+    float: right;
+    margin: 30px;
+    margin-top: 60px;
+}
+.footerLINKS {
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    float: right;
+    margin: 30px; 
+    margin-top: 60px;
+}
+.footerLINKS:hover {
+     opacity: 0.5;
+     text-decoration: underline;
+     
+ }
+#footerLOGO {
+    width: 160px;
+    height: 170px;
+    z-index: 100;
+    display: flex;
+    justify-content: right;
+    margin-top: 60px;
+    float: right;
+    margin: 30px
+}
+#copyRights {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    color: rgb(115 74 38 / 0.69);
+    margin-top: 70px;
+    padding-left:220px;
+    float:right;
+}
+
+/*טופס צור קשר*/
+.formTitle {
+    font-family: 'Varela Round', sans-serif;
+    color: #634022;
+    font-weight: bold;
+    font-size: 46px;
+    text-align: center;
+    margin-top: 80px;
+}
+.mainforms {
+    background-color: #FFEFDE;
+    width: 700px;
+    height: 350px;
+    padding: 30px 40px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    color: #634022;
+    margin-top: 30px;
+    position: absolute;
+    top: 230px;
+    right: 380px;
+    border-radius: 20px;
+    font-size: 17px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form > label {
+    font-family: 'Varela Round', sans-serif;
+}
+#firstNameBox {
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-family: 'Varela Round', sans-serif;
+}
+#lastNameBox {
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-family: 'Varela Round', sans-serif;
+}
+#female {
+    padding: 12px 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+#male {
+    margin: 4px;
+    padding: 12px 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+.genderRadio {
+    position: absolute;
+    bottom:40px;
+    right: 40px;
+}
+#openList {
+    position: absolute;
+    top: 100px;
+    right: 65px;
+    font-family: 'Varela Round', sans-serif;
+}
+#descriptionBox {
+    padding: 12px 20px;
+    /*מבטל את האופציה להגדיל את התיבה*/
+    resize: none;
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    border-radius: 6px;
+}
+.descriptionBoxTitle {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    color: #634022;
+    margin-top: 50px;
+    position: absolute;
+    top: 100px;
+    right:65px;
+}
+#sendButton {
+    height: 60px;
+    width: 160px;
+    background-color: #7D5137;
+    color: white;
+    position: absolute;
+    top: 300px;
+    right: 480px;
+    border-radius: 6px;
+    font-family: 'Varela Round', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.genderTEXT {
+    font-family: 'Varela Round', sans-serif;
+    font-size:18px;
+}
+.genderRadio {
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 0px;
+    position: relative;
+    right: 120px;
+}
+#sendButton:hover {
+    background-color: #FFF9E9;
+    color: #593520;
+    transition-duration: 0.6s;
+}
+/*תחילת עמוד אודות*/
+#titleODOT {
+    font-size: 38px;
+    color: #634022;
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    top: 120px;
+    right: 720px;
+}
+
+#odotMain {
+    margin-top: 130px;
+}
+
+.odotTitle {
+    color: #634022;
+    font-size: 22px;
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 30px;
+    font-weight: bold;   
+}
+
+.odotText {
+    color: #634022;
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 30px;    
+}
+
+.odotList {
+    color: #634022;
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 30px;
+    
+}
+.odotList:hover {
+    opacity: 0.4;
+    font-size: 22px;
+}
+
+#odotsection1 {
+    padding-bottom: 100px;
+    height: 90px;
+    width: 500px;
+    background-color: #FFF9E9;
+    border-radius: 4px;
+    padding: 20px;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#odotsection2 {
+    padding-bottom: 30px;
+    height: 120px;
+    width: 500px;
+    background-color: #FFF9E9;
+    border-radius: 4px;
+    padding: 20px;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#odotsection3 {
+    padding-bottom: 30px;
+    height: 200px;
+    width: 500px;
+    background-color: #FFF9E9;
+    border-radius: 4px;
+    padding: 20px;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#HITlogo{
+    height:200px;
+    width:300px;
+    position:relative;
+    right:520px;
+    top:200px;
+}
+#zohar {
+    width: 14%;
+    position: absolute;
+    top: 180px;
+    left: 220px;
+
+}
+
+#ariel {
+    width: 14%;
+    position: absolute;
+    top: 430px;
+    left: 220px;   
+}
+
+#inbal {
+    width: 14%;
+    position: absolute;
+    top: 680px;
+    left: 220px;   
+}
+
+#zoharName {
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    top: 400px;
+    left: 290px;
+    font-weight: bold;
+}
+#arielName {
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    top: 650px;
+    left: 280px;
+    font-weight:bold;
+}
+#inbalName {
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    top: 900px;
+    left: 270px;
+    font-weight: bold;
+}
+/*מפת אתר*/
+#mapPIc {
+    height: 700px;
+    width: 100%;
+   
+}
+
+#map {
+    color: #FFF9E9;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 60px;
+    line-height: 2;
+    position: absolute;
+    top: 200px;
+    right: 24px;
+}
+
+.mapmain {
+    color: #634022;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.linkmap {
+    font-size: 20px;
+    color: #634022;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+    .linkmap:hover {
+        text-decoration: underline;
+        opacity: 0.5;
+        font-size: 22px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+.mapTitiles {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: #634022;
+}
+.notActiveMap {
+    color: #634022;
+    text-decoration: none;
+    cursor: not-allowed;
+    font-family: 'Varela Round', sans-serif;
+}
+#mapPosition {
+    position:absolute;
+    right: 20px;
+    top:800px;
+}
+.footer3 {
+    position: absolute;
+    top: 1300px;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background: #D99B66;
+    margin-top: 500px;
+}
+
+
+/*תחילת גלריה*/
+
+/* Position the image container (needed to position the left and right arrows) */
+.container2 {
+    position:relative;
+    top:700px;
+    right:25%;
+    width: 50%;
+    text-align: center;
+    
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #FFF9E9;
+    font-weight: bold;
+    font-size: 26px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: #B98961;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0px;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0px;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgb(185 137 97 / 0.70);
+    }
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #FFF9E9;
+    background-color: #B98961;
+    font-size: 24px;
+    padding: 12px 16px;
+    position: absolute;
+    top: 0;
+    
+}
+
+/* Container for image text */
+.caption-container2 {
+    text-align: center;
+    color: #FFF9E9;
+    background-color: #B98961;
+    padding: 2px 16px;
+    font-size: 22px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+    
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    
+filter: grayscale(100%);
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+}
+   
